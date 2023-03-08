@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(250, 235, 215, 0.734);
+}
+
+.parent {
+    transition: all 5s;
+}
+
+.image {}
+
+.icon {
+    z-index: -1;
+
+}
+
+.parent:hover .icon {
+    z-index: 1;
+}
+
+.parent:hover .image {
+    opacity: 0.7;
+}
+
+.parent:hover .image {
+    cursor: pointer;
+    transition: 1s;
+    /* transform: translateY(-5px); */
+    transform:scale(0.97);
+}
